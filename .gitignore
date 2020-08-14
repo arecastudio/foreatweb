@@ -3,3 +3,26 @@ data/mysql/*
 data/mysql
 *~
 data/html/wp-config.php
+
+!data/html/wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+data/html/wp-content/*
+!data/html/wp-content/mu-plugins/
+!data/html/wp-content/plugins/
+!data/html/wp-content/themes/
+
+# ignore these plugins
+data/html/wp-content/plugins/hello.php
+
+# ignore specific themes
+data/html/wp-content/themes/twenty*/
+
+# ignore node dependency directories
+data/html/node_modules/
+
+# ignore log files and databases
+data/html/*.log
+data/html/*.sql
+data/html/*.sqlite
