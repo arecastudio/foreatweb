@@ -8,4 +8,4 @@ Modify yml file:
 
 Modify wp-config-example.php:
 - rename to wp-config.php
-- set each passwords and keys before running
+- set each passwords and keys before running.

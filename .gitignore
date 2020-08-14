@@ -1,5 +1,5 @@
 docker-compose.yml
-./data/mysql/*
-./data/mysql
+data/mysql/*
+data/mysql
 *~
-./data/html/wp-config.php
+data/html/wp-config.php
